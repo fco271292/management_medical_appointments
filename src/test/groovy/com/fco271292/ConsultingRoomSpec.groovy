@@ -1,0 +1,18 @@
+package com.fco271292
+
+import grails.testing.gorm.DomainUnitTest
+import spock.lang.Specification
+
+class ConsultingRoomSpec extends Specification implements DomainUnitTest<ConsultingRoom> {
+
+    def setup() {
+    }
+
+    def cleanup() {
+    }
+
+    void "test something"() {
+        expect:"fix me"
+            true == false
+    }
+}
